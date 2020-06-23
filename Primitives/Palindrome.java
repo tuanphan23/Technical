@@ -1,3 +1,7 @@
+/* 
+A palindrome is a sequence that reads the same forwards and backward.
+Given an integer as input, write a function that tests if it is a palindrome.
+*/
 
 class Palindrome {
     public boolean isPalindrome(int x) {

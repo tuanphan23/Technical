@@ -15,7 +15,7 @@ public class ChangingBase {
 
         for (int i = startIndex; i < length; i++) {
             boolean isDigit = Character.isDigit(numAsString.charAt(i));
-            int value = isDigit ? numAsString.charAt(i) - '0' : numAsString.charAt(i) - 'A';
+            int value = isDigit ? numAsString.charAt(i) - '0' : numAsString.charAt(i) - 'A' + 10;
             numberUnderBase10 += (int) value * Math.pow(b1, maxPower - i);
         }
 
